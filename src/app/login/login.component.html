@@ -1,11 +1,12 @@
-<br>
+<!-- <br>
+
 <h1></h1>
 <div class="text-center card container col-md-3">
     <div class="mt-5 mb-5">
         <img class="mb-4" src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="72"
             height="57">
             <h1 class="h3 mb-3 fw-normal">UPMIN JPIS</h1>
-        <!-- 
+        
         <div class="form-floating">
             <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email address</label>
@@ -24,11 +25,81 @@
             <div class="line-separator"></div>
             <div class="or-label">or</div>
             <div class="line-separator"></div>
-        </div>-->
+        </div>
         <div class="row">
             <button class="btn btn-lg btn-google btn-block text-uppercase btn-outline" (click)="login()">
                 <img src="https://img.icons8.com/color/22/000000/google-logo.png"> Sing in Google
             </button>
         </div>
     </div>
-</div>
+</div> -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Portal Information System</title>
+  </head>
+  <body>
+    <br />
+    <h1></h1>
+    <header>
+      <h1>University of the Philippines Mindanao</h1>
+      <p>
+        Create an account to find Employment and Career Opportunities here at
+        UPMIN.
+      </p>
+    </header>
+
+    <div class="content">
+      <div class="text-center card container col-md-3">
+        <img
+          class="u-logo"
+          src="https://upload.wikimedia.org/wikipedia/en/c/c3/Unibersidad_ng_Pilipinas_Mindanao.png"
+          alt="Logo"
+        />
+        <div class="jp-logo">
+          <h3>JPIS</h3>
+          <p>Job Portal Information System</p>
+        </div>
+
+        <div>
+          <div class="row">
+            <button
+              id="google-btn"
+              class="btn btn-lg btn-google btn-block text-uppercase btn-outline"
+              (click)="login()"
+            >
+              <img
+                class="img-google"
+                src="https://img.icons8.com/color/22/000000/google-logo.png"
+              />
+              Sing in Google
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="left">
+        <h2>Job Vacancies (0)</h2>
+        <div class="no-data">
+          <img
+            src="https://via.placeholder.com/200"
+            alt="No data found illustration"
+          />
+          <p>No data found.</p>
+        </div>
+        <div class="buttons">
+          <a href="#">How to Apply</a>
+          <a href="#">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        UP MINDANAO | Job Portal Information System v2.0.0 |
+        <a href="#">Changelog</a>
+      </p>
+    </footer>
+  </body>
+</html>
